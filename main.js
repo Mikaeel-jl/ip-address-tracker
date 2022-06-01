@@ -39,7 +39,7 @@ function displayMap(lat, lng) {
 // displayMap(52.37403,4.88969)
 function getJson(ip = '') {
   return fetch(
-    `https://geo.ipify.org/api/v2/country,city?apiKey=at_wu47NMWfOPYlUHnKjHVKhlmkrpRRo&ipAddress=${ip}`
+    `https://geo.ipify.org/api/v2/country,city?apiKey=at_tcbgdkV1Vbw4mIPdoz6xPV10MyWef&ipAddress=${ip}`
   ).then((response) => response.json());
 }
 
